@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 412px;
+    height: 180px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 35px;
+    width: 280px;
+    margin-top: 40px;
+}
+
+.paragraph-principal {
+    width: 260px;
+    margin-right: 11px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.preparation-time {
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+}
+
+.ingredient-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1px;
+    gap: 10px;
+    width: 170px;
+    margin-bottom: 60px;
+}
+
+.ingredients {
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 105px;
+    padding-bottom: 10px;
+}
+
+.recipe-pass {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    gap: 10px;
+    width: 250px;
+    margin-bottom: 60px;
+}
+
+.instructions {
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 90px;
+    padding-bottom: 10px;
+}
+
+.recipe-orders {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    gap: 10px;
+    width: 250px;
+    margin-bottom: 60px;
+}
+
+.nutrition {
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 130px;
+    margin-bottom: -5px;
+}
+
+.paragraph-secundary {
+    width: 300px;
+    margin-right: -50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.posicione {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.left {
+    margin-right: 70px;
+}
+
+th {
+    padding: 8px;
+  }

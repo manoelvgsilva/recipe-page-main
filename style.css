@@ -126,38 +126,26 @@ th {
     padding: 8px;
   }
 
-  @media (min-width: 750px) {
+  @media (min-width: 700px) {
 
-    .align-flex-start {
+    .background {
+        margin-left: 10px;
+        width: 600px;
+        padding: 15px;
+        background-color: blueviolet;
+        align-items: center;
+        display: flex;
+        border-radius: 10px;
+        justify-content: flex-start;
+        flex-direction: column;
+        background-color: rgba(236, 190, 209, 0.552);
+    }
+
+    .ingredient-list {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        width: 450px;
-    }
-
-    img {
-        width: 450px;
-        height: 180px;
-    }
-
-    h1 {
-        font-weight: bold;
-        font-size: 35px;
-        width: 400px;
-        margin-top: 40px;
-    }
-
-    .paragraph-principal {
-        margin-top: 30px;
-        margin-bottom: 50px;
-        
-    }
-
-    .preparation-time {
-        font-weight: bold;
-        font-size: 20px;
-        padding-right: 60px;
-        padding-bottom: 10px;
-        margin-right: 180px;
+        margin-right: 300px;
+        gap: 10px;
     }
 }
